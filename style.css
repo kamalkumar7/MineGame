@@ -1,6 +1,5 @@
 .container {
-  width: 100%;
-  align-items: center;
+  
 
 }
 
@@ -10,23 +9,24 @@
   display: flex;
   flex-wrap: wrap;
   background-color: #dcd6bc;
-  
+  text-align: center;
   margin-top: 20px;
   border: 10px solid #160b3f;
   margin-bottom: 10px;
- align-items: center;
+   align-items: center;
   justify-content: center;
-  margin-left: 35%;
+
  
 }
 
 div {
   font-size: 25px;
-  text-align: center;
+
   font-family: 'Roboto Mono', monospace;
   color: red;
 
 }
+
 .valid {
   height: 40px;
   width: 40px;
@@ -77,5 +77,11 @@ div {
 }
 .heading{
   color: black;
-  font-family: ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.maindiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
